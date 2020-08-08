@@ -1,15 +1,24 @@
 package com.reacttest;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.PersistableBundle;
+import android.view.View;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.facebook.react.ReactActivity;
 
-public class MainActivity extends ReactActivity {
-
-  /**
-   * Returns the name of the main component registered from JavaScript. This is used to schedule
-   * rendering of the component.
-   */
+public class MainActivity extends AppCompatActivity {
   @Override
-  protected String getMainComponentName() {
-    return "ReactTest";
+  protected void onCreate(@Nullable Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+  }
+
+  public void onLaunchClicked(View view) {
+    Intent intent = new Intent(this, MyReactActivity.class);
+    startActivity(intent);
   }
 }
