@@ -1,14 +1,11 @@
-package com.reacttest;
+package com.pocketlearningapps.timeline;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.facebook.react.ReactActivity;
 
 public class MainActivity extends AppCompatActivity {
   @Override

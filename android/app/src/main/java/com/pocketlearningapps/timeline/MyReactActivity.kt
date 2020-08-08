@@ -1,4 +1,4 @@
-package com.reacttest
+package com.pocketlearningapps.timeline
 
 import com.facebook.react.ReactActivity
 

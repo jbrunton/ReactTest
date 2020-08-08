@@ -1,17 +1,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.reacttest">
+  package="com.pocketlearningapps.timeline">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-      android:name=".MainApplication"
+      android:name="com.pocketlearningapps.timeline.MainApplication"
       android:label="@string/app_name"
       android:icon="@mipmap/ic_launcher"
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme">
       <activity
-        android:name=".MainActivity"
+        android:name="com.pocketlearningapps.timeline.MainActivity"
         android:label="@string/app_name"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
         android:launchMode="singleTask"
@@ -22,7 +22,7 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-        <activity android:name=".MyReactActivity"
+        <activity android:name="com.pocketlearningapps.timeline.MyReactActivity"
             android:label="@string/app_name"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
             android:launchMode="singleTask"
