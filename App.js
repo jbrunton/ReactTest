@@ -48,7 +48,7 @@ const App = () => {
 const HomeScreen = ({ navigation }) => {
   return (
     <Button
-      title="Go to Jane's profile"
+      title="Go to Jane's profiles"
       onPress={() =>
         navigation.navigate('Profile', { name: 'Jane' })
       }
